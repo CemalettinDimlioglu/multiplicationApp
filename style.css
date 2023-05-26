@@ -19,7 +19,7 @@ body {
   display: block;
   width: 100%;
   box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 30px;
   text-align: center;
   padding: 10px;
@@ -30,17 +30,25 @@ body {
   color: lightgrey;
   font-family: cursive;
 }
-.btn{
-     background-color: green;
-     color: white;
-     border: none;
-     display: block;
-     width: 100%;
-  border-radius: 10px;
+.btn {
+  background-color: green;
+  color: white;
+  border: none;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
   padding: 10px;
   font-size: 20px;
   font-family: cursive;
   margin: 20px 0;
-
-
+  box-shadow: 0 2px 4px rgb(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.btn:hover{
+     filter: brightness(0.7);
+}
+.score{
+     color: green;
+     text-align: right;
+     
 }
