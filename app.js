@@ -19,7 +19,7 @@
 
  questionEl.innerText = `What is ${num1}multiply by ${num2} `;
 
- const correctAns = num1 * num2; 
+ const correctAns = num1 * num2;
 
 
  formEl.addEventListener("submit",()=>{
